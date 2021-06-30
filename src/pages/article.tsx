@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router"
 import { database } from "../services/firebase";
-import 'C:/Users/sheyl/Documents/publish_articles/src/styles/article.scss'
+import '../styles/article.scss'
 
 type articleParams = {
     id: string,
